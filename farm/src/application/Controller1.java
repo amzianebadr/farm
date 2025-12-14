@@ -17,7 +17,7 @@ public class Controller1 {
     @FXML
     void enter(ActionEvent event) {
     	mysql con = new mysql();
-        Connection connection = con.connect(); // هنا الاتصال بقاعدة البيانات
+        Connection connection = con.connect();
 
         if(connection != null) {
             System.out.println("Connected to MySQL successfully!");
